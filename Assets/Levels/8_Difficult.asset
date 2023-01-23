@@ -1,0 +1,633 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd4f87083b47424b999214d17c348c3, type: 3}
+  m_Name: 8_Difficult
+  m_EditorClassIdentifier: 
+  tileData:
+  - height: 20
+    moveCost: 1000
+    texture: 5
+  - height: 7
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 0
+    moveCost: 3
+    texture: 2
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 7
+    moveCost: 1
+    texture: 1
+  - height: 20
+    moveCost: 1000
+    texture: 5
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 20
+    moveCost: 1000
+    texture: 5
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 0
+    moveCost: 3
+    texture: 2
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 20
+    moveCost: 1000
+    texture: 5
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 20
+    moveCost: 1000
+    texture: 5
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 20
+    moveCost: 1000
+    texture: 5
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 0
+    moveCost: 3
+    texture: 2
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 0
+    moveCost: 2
+    texture: 2
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 0
+    moveCost: 3
+    texture: 2
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 0
+    moveCost: 3
+    texture: 2
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 0
+    moveCost: 2
+    texture: 2
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 0
+    moveCost: 3
+    texture: 2
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 0
+    moveCost: 2
+    texture: 2
+  - height: 0
+    moveCost: 2
+    texture: 2
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 1
+    moveCost: 1
+    texture: 5
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 0
+    moveCost: 2
+    texture: 2
+  - height: 0
+    moveCost: 2
+    texture: 2
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 1
+    moveCost: 1
+    texture: 5
+  - height: 1
+    moveCost: 1
+    texture: 5
+  - height: 1
+    moveCost: 1
+    texture: 5
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 0
+    moveCost: 2
+    texture: 2
+  - height: 1
+    moveCost: 1
+    texture: 5
+  - height: 1
+    moveCost: 1
+    texture: 5
+  - height: 1
+    moveCost: 1
+    texture: 5
+  - height: 0
+    moveCost: 2
+    texture: 2
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 0
+    moveCost: 2
+    texture: 2
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 0
+    moveCost: 2
+    texture: 2
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 0
+    moveCost: 2
+    texture: 2
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 0
+    moveCost: 3
+    texture: 2
+  - height: 0
+    moveCost: 3
+    texture: 2
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 0
+    moveCost: 2
+    texture: 2
+  - height: 2
+    moveCost: 1
+    texture: 1
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 0
+    moveCost: 3
+    texture: 2
+  - height: 0
+    moveCost: 3
+    texture: 2
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 3
+    moveCost: 1
+    texture: 5
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 20
+    moveCost: 1000
+    texture: 5
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 20
+    moveCost: 1000
+    texture: 5
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 0
+    moveCost: 3
+    texture: 2
+  - height: 4
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 20
+    moveCost: 1000
+    texture: 5
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 20
+    moveCost: 1000
+    texture: 5
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 7
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 0
+    moveCost: 3
+    texture: 2
+  - height: 5
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 6
+    moveCost: 1
+    texture: 1
+  - height: 7
+    moveCost: 1
+    texture: 1
+  width: 13
+  teamData:
+  - unitData:
+    - health: 100
+      movement: 5
+      className: 0
+    - health: 100
+      movement: 5
+      className: 2
+    - health: 100
+      movement: 5
+      className: 2
+    - health: 100
+      movement: 5
+      className: 2
+    spawnPoints:
+    - x: 6
+      y: 6
+    - x: 4
+      y: 6
+    - x: 8
+      y: 6
+    - x: 7
+      y: 8
+  - unitData:
+    - health: 100
+      movement: 5
+      className: 3
+    - health: 100
+      movement: 5
+      className: 3
+    - health: 100
+      movement: 5
+      className: 3
+    - health: 100
+      movement: 5
+      className: 3
+    - health: 100
+      movement: 5
+      className: 3
+    - health: 100
+      movement: 5
+      className: 3
+    - health: 100
+      movement: 5
+      className: 3
+    - health: 100
+      movement: 5
+      className: 3
+    - health: 100
+      movement: 5
+      className: 3
+    - health: 100
+      movement: 5
+      className: 5
+    - health: 100
+      movement: 5
+      className: 3
+    - health: 100
+      movement: 5
+      className: 5
+    - health: 100
+      movement: 5
+      className: 4
+    - health: 100
+      movement: 5
+      className: 4
+    - health: 100
+      movement: 5
+      className: 4
+    - health: 100
+      movement: 5
+      className: 5
+    - health: 100
+      movement: 5
+      className: 4
+    spawnPoints:
+    - x: 3
+      y: 3
+    - x: 5
+      y: 2
+    - x: 8
+      y: 2
+    - x: 10
+      y: 3
+    - x: 11
+      y: 5
+    - x: 11
+      y: 7
+    - x: 9
+      y: 10
+    - x: 6
+      y: 10
+    - x: 3
+      y: 9
+    - x: 1
+      y: 7
+    - x: 2
+      y: 4
+    - x: 5
+      y: 5
+    - x: 10
+      y: 0
+    - x: 8
+      y: 0
+    - x: 4
+      y: 0
+    - x: 1
+      y: 1
+    - x: 4
+      y: 11

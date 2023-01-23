@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd4f87083b47424b999214d17c348c3, type: 3}
+  m_Name: 0_Tutorial
+  m_EditorClassIdentifier: 
+  tileData:
+  - height: 1
+    moveCost: 1
+    texture: 1
+  - height: 1
+    moveCost: 1
+    texture: 1
+  - height: 1
+    moveCost: 1
+    texture: 1
+  - height: 2
+    moveCost: 2
+    texture: 4
+  - height: 3
+    moveCost: 3
+    texture: 4
+  - height: 2
+    moveCost: 2
+    texture: 4
+  - height: 1
+    moveCost: 1
+    texture: 1
+  - height: 1
+    moveCost: 1
+    texture: 5
+  - height: 1
+    moveCost: 1
+    texture: 1
+  - height: 0
+    moveCost: 3
+    texture: 2
+  - height: 0
+    moveCost: 3
+    texture: 2
+  - height: 0
+    moveCost: 3
+    texture: 2
+  - height: 1
+    moveCost: 1
+    texture: 5
+  - height: 0
+    moveCost: 3
+    texture: 2
+  - height: 1
+    moveCost: 1
+    texture: 1
+  - height: 3
+    moveCost: 3
+    texture: 4
+  - height: 1
+    moveCost: 1
+    texture: 1
+  - height: 1
+    moveCost: 1
+    texture: 1
+  - height: 1
+    moveCost: 1
+    texture: 1
+  - height: 1
+    moveCost: 1
+    texture: 1
+  - height: 4
+    moveCost: 4
+    texture: 4
+  - height: 2
+    moveCost: 1
+    texture: 4
+  - height: 20
+    moveCost: 1000
+    texture: 4
+  - height: 1
+    moveCost: 1
+    texture: 1
+  - height: 1
+    moveCost: 1
+    texture: 1
+  width: 5
+  teamData:
+  - unitData:
+    - health: 100
+      movement: 5
+      className: 0
+    spawnPoints:
+    - x: 0
+      y: 0
+  - unitData:
+    - health: 100
+      movement: 5
+      className: 3
+    spawnPoints:
+    - x: 4
+      y: 4

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 73db808f59e047a458bf615aec1f49e4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - healthBar: {instanceID: 0}
+  - unitModel: {instanceID: 0}
+  - msgText: {fileID: 4575994163404338855, guid: ced1c8e777d88c0438410b118baffee2, type: 3}
+  - canvas: {instanceID: 0}
+  - hudController: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

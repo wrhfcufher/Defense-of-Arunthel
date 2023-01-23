@@ -1,0 +1,346 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd4f87083b47424b999214d17c348c3, type: 3}
+  m_Name: TestLevel
+  m_EditorClassIdentifier: 
+  tileData:
+  - height: 5
+    moveCost: 5
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 5
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 10
+    moveCost: 100
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  - height: 1
+    moveCost: 1
+    texture: 0
+  width: 10
+  teamData:
+  - unitData:
+    - health: 1000
+      movement: 7
+      className: Rogue
+    - health: 100
+      movement: 7
+      className: Juggernaught
+    spawnPoints:
+    - x: 0
+      y: 0
+    - x: 0
+      y: 1
+  - unitData:
+    - health: 100
+      movement: 5
+      className: Rogue
+    - health: 100
+      movement: 5
+      className: Juggernaught
+    - health: 100
+      movement: 5
+      className: Rogue
+    spawnPoints:
+    - x: 1
+      y: 0
+    - x: 3
+      y: 1
+    - x: 2
+      y: 1
